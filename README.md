@@ -29,3 +29,21 @@ composer create-project wintercms/winter <your installation directory> "<version
 ```
 
 Read more in the [documentation](https://wintercms.com/docs/help/using-composer).
+
+### Example of a minimal project
+
+```bash
+# Install Winter CMS, plugin with tools and default theme
+composer create-project wintercms/winter mysite
+composer require for-wintercms/wn-toolbox-plugin
+composer require for-wintercms/wn-default-theme
+
+# Generate a configuration file (.env)
+php artisan winter:env
+
+# DB migration
+php artisan winter:up
+
+# Generates a mirrored public folder using symbolic links.
+php artisan winter:mirror public/
+```
