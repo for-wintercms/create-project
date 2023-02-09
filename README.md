@@ -38,12 +38,12 @@ composer create-project wintercms/winter mysite
 composer require for-wintercms/wn-toolbox-plugin
 composer require for-wintercms/wn-default-theme
 
+# Generates a mirrored public folder using symbolic links.
+php artisan winter:mirror public/
+
 # Generate a configuration file (.env)
 php artisan winter:env
 
 # DB migration
 php artisan winter:up
-
-# Generates a mirrored public folder using symbolic links.
-php artisan winter:mirror public/
 ```
