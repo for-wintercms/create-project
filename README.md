@@ -1,4 +1,10 @@
-# WinterCMS-based project
+<p align="center">
+    <img src="https://github.com/wintercms/winter/raw/develop/modules/backend/assets/images/wordmark.png?raw=true" alt="Winter CMS Logo" width="100%" />
+</p>
+
+- [Website Winter CMS](https://wintercms.com)
+- [Docs](https://wintercms.com/docs/)
+- [GitHub](https://github.com/wintercms/winter/)
 
 ## Install
 
